@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/responsive-card-using-css-flexbox-jU4ZpBw3ma)
 - Live Site URL: [Add live site URL here](https://reem-a-hikal.github.io/Frontend-mentor-challenges-01/)
 
 ### Built with

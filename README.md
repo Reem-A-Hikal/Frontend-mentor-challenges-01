@@ -1,16 +1,15 @@
 # Frontend Mentor - Product preview card component solution
 
-This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Author](#author)
-
+- [The challenge](#the-challenge)
+- [Screenshot](#screenshot)
+- [Links](#links)
+- [Built with](#built-with)
+- [What I learned](#what-i-learned)
+- [Author](#author)
 
 ### The challenge
 
@@ -21,13 +20,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshoot/Screenshot-Desktop.png)
-
+![](/screenshoot/Screenshot-Desktop.png)
 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://reem-a-hikal.github.io/Frontend-mentor-challenges-01/)
 
 ### Built with
 
@@ -35,25 +33,20 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 
-
 ### What I learned
 
 ```css
-
 .proud-of-this-css {
-
-@media only screen and (max-width: 550px) {
-  .image-container img {
-    content: url(/images/image-product-mobile.jpg);
-    width: 100%;
-    height: 40%;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+  @media only screen and (max-width: 550px) {
+    .image-container img {
+      content: url(/images/image-product-mobile.jpg);
+      width: 100%;
+      height: 40%;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+    }
   }
 }
-
-}
-
 ```
 
 ## Author

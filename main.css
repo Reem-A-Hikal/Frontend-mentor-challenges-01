@@ -108,7 +108,7 @@ button:hover {
     width: 100%;
   }
   .image-container img {
-    content: url(/images/image-product-mobile.jpg);
+    content: url(images/image-product-mobile.jpg);
     width: 100%;
     height: 40%;
     border-top-left-radius: 10px;

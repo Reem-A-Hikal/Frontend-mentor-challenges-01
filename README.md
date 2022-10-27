@@ -37,15 +37,8 @@ Users should be able to:
 
 ```css
 .proud-of-this-css {
-  @media only screen and (max-width: 550px) {
-    .image-container img {
-      content: url(/images/image-product-mobile.jpg);
-      width: 100%;
-      height: 40%;
-      border-top-left-radius: 10px;
-      border-bottom-left-radius: 10px;
-    }
-  }
+  @media (max-width: 600px) {
+    
 }
 ```
 

@@ -1,0 +1,117 @@
+:root {
+  --main-background: hsl(30, 38%, 92%);
+  --main-color: hsl(158, 36%, 37%);
+  --p-color: hsl(228, 12%, 48%);
+  --perfume-color: hsl(212, 21%, 14%);
+  --sec-color: hsl(212, 21%, 14%);
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Montserrat, Fraunces;
+  background-color: var(--main-background);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: white;
+  margin: 16px auto;
+  max-width: 37.5rem;
+  border-radius: 10px;
+}
+@media (max-width: 600px) {
+  main {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 16px 24px;
+  }
+}
+main .image-container {
+  max-width: 100%;
+}
+main .image-container img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px 0 0 10px;
+}
+@media (max-width: 600px) {
+  main .image-container img {
+    content: url(images/image-product-mobile.jpg);
+    border-radius: 10px 10px 0 0;
+  }
+}
+main .info-container {
+  padding: 30px;
+}
+@media (max-width: 600px) {
+  main .info-container {
+    padding: 1.5rem;
+  }
+}
+main .info-container p:nth-of-type(1) {
+  color: var(--p-color);
+  font-size: 15px;
+  letter-spacing: 3px;
+  padding-bottom: 20px;
+}
+main .info-container h1 {
+  font-family: Fraunces;
+  line-height: 2rem;
+  padding-bottom: 24px;
+}
+main .info-container p:nth-of-type(2) {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 23px;
+  color: var(--p-color);
+  padding-bottom: 28px;
+}
+@media (max-width: 600px) {
+  main .info-container p:nth-of-type(2) {
+    line-height: 1.5;
+    max-width: 90%;
+  }
+}
+.price-container {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding-bottom: 30px;
+}
+.price-container :first-child {
+  font-size: 38px;
+  font-family: Fraunces;
+  color: var(--main-color);
+}
+.price-container :last-child {
+  text-decoration: line-through;
+  color: var(--p-color);
+  font-size: 14px;
+}
+button {
+  width: 100%;
+  display: flex;
+  background-color: var(--main-color);
+  color: white;
+  border: 0;
+  outline: 0;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  font-weight: 700;
+}
+button:hover {
+  background-color: #193d2f;
+}

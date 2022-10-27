@@ -21,7 +21,6 @@ Users should be able to:
 ### Screenshot
 
 ![](/screenshoot/Screenshot-Desktop.jpeg)
-
 ### Links
 
 - Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/responsive-card-using-css-flexbox-jU4ZpBw3ma)
